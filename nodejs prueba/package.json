@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-prueba",
+  "version": "1.0.0",
+  "description": "Primer Proyecto NodeJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Alejandro Espinosa",
+  "license": "ISC"
+}
