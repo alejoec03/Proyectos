@@ -1,48 +1,167 @@
-<!doctype html>
+<!DOCTYPE doctype html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+                <title>
+                    Bootstrap demo
+                </title>
+                <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+                </link>
+            </meta>
+        </meta>
+        <style>
 
-  <head>
+    .card {
+      margin: 10px;
+    }
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  </head>
-  
-  <body>
+    .footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+    }
+        </style>
+    </head>
+    <body>
+        
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">
+                    Bienvenido
+                </h1>
+            </div>
+        </div>
+        <div class="container">
 
-    <div class="jumbotron">
-    	
-    	<div class="container">
-    		<h1>Hola Mundo!</h1>
-    		
-    		<div class="row">
-    			<div class="col" style="background: cyan;">
-      				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-    			</div>
-    			<div class="col" style="background: yellow;">
-      				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-    			</div>
-    			<div class="col" style="background: pink;">
-      				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-    			</div>
-  			</div>
-
-    	</div>
-
-    </div>
-
-    
-	<script src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="node_modules/popper.js/dist/popper.min.js"></script>
-	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  
-  </body>
-
+          <div class="row">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias facere fuga, rem quis veritatis quibusdam aperiam qui, hic in, deserunt esse nam excepturi velit aspernatur omnis. Porro quod minus, eos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quos maxime, placeat labore illo officia molestiae nam nulla neque asperiores porro, eveniet, consequuntur natus quasi recusandae sunt aliquam modi iure, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum veritatis doloremque quod at quam suscipit quaerat aut consectetur aspernatur. Ab ut maxime vel mollitia repellendus dignissimos enim saepe nemo nam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quidem corporis praesentium autem vel aspernatur labore possimus suscipit laboriosam saepe facere aliquam consequuntur temporibus hic in et odio, rerum mollitia.</p>
+          </div>
+            <div class="d-flex flex-wrap">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Hotel 1
+                            </h5>
+                            <p class="card-text">
+                                Ubicación: Ciudad 1
+                            </p>
+                            <a class="btn btn-primary" href="#">
+                                Reservar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Hotel 2
+                            </h5>
+                            <p class="card-text">
+                                Ubicación: Ciudad 2
+                            </p>
+                            <a class="btn btn-primary" href="#">
+                                Reservar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Hotel 3
+                            </h5>
+                            <p class="card-text">
+                                Ubicación: Ciudad 3
+                            </p>
+                            <a class="btn btn-primary" href="#">
+                                Reservar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Hotel 4
+                            </h5>
+                            <p class="card-text">
+                                Ubicación: Ciudad 4
+                            </p>
+                            <a class="btn btn-primary" href="#">
+                                Reservar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Hotel 5
+                            </h5>
+                            <p class="card-text">
+                                Ubicación: Ciudad 5
+                            </p>
+                            <a class="btn btn-primary" href="#">
+                                Reservar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="d-flex flex-wrap">
+                    <div class="col-md-4 p-1">
+                        <h4>
+                            Redes Sociales
+                        </h4>
+                        <ul>
+                            <li>
+                                Facebook
+                            </li>
+                            <li>
+                                Twitter
+                            </li>
+                            <li>
+                                Instagram
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 p-2">
+                        <h4>
+                            Nosotros
+                        </h4>
+                        <p>
+                            Somos una empresa dedicada a brindar experiencias de hospedaje de calidad. Nuestros hoteles ofrecen comodidad y servicio excepcionales para que nuestros clientes disfruten al máximo su estancia.
+                        </p>
+                    </div>
+                    <div class="col-md-4 p-2">
+                        <h4>
+                            Contacto
+                        </h4>
+                        <p>
+                            Teléfono: 123456789
+                        </p>
+                        <p>
+                            Email: info@hoteles.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="node_modules/jquery/dist/jquery.min.js">
+        </script>
+        <script src="node_modules/popper.js/dist/popper.min.js">
+        </script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js">
+        </script>
+    </body>
 </html>
